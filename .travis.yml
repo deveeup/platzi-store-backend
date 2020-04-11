@@ -8,7 +8,13 @@ git:
 script: 
   - yarn test
 notifications: 
-  slack: personal-fit:d1vkQpTBxLstExR4gcLqbTtn
+  slack:
+    secure: "uLCc5U1qlyXVj4DK/SKoaQIFhi7Fko4X/Da2kEXZi38c9I3OzEvCcN1qZThXJOCRi02jBgmx6NoTahfbv10OtwsJSZmE2jctjuSbS1Wa4X4JBEo
+r+NOIV7r0nNzD6kgpH1lIk1VPAouQlGHJwELuXDZERCTs4SxUGCC/lNq3Z1yF2bfyM33LMG8Yj1JTOVV1sopEm7lXCIP8qNcGww5aZEc7+lGpWBUgu8HMAddd7
+/9exiKR1B+RP/kXQc9X3T0+8Xm+QMr5UaaB61Cs1A4lCl6KzyrBWf0vyWFlMMV00BGT+fZOq4o2xprYSHrhUXsCisoxGtX89sK4jmst6dRI97MCEdlZ4RE3DUt
+gjEHWQdTzaqlPbotAS0AOE7j05YjdQmikqQ+/kzlpSUZIP9NuETcv/JDzhTw3Cl6mRaQRXLbC9oV7zvlM34WjbTqASii2VRiZ2KF/4YCQPvWwf7JDAT8jvO9QZ
+OgBIa0NSehB5nEGnSmzm6f3MijjgPcSoFvg14U7PoS9d6WXtiLSwT+fI6//0JNIQm4dsGyndEegN2guodjOWSuB4ewg/tMu8cOz7jY/lqNCXrU0qe8pmWcLo4U
+WYQuDLQpr+vQmUH1EVmllyUxiFq7s+9bRNvrbHo1vBuXE5IW7LPdd5Fv4RMLo0wLFOVKjSWQRxx4GV5kZZu8="
   email:
     recipients:
       - jossedaviid1@gmail.com
@@ -18,7 +24,13 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: 5f12ee20-2130-4cca-8755-7e3b9fb9b069 # from heroku
+  api_key: 
+    secure: "Ljmf/6OefXCOsnL4OVMOPL6vWsEiOBcfkRto22PvwGBnNAK77RA2IIm7/TGowoYo9bOyF4knrPkJVCV8sTRFgXNF4VwsXu2mwYqocklYtBJ2MKP
+enTzv65wBeuXRi0sUZJEKjbyR/zMhtEBSfcJEN6aRFPqwUNCOEFF1LPRUwyhh4ycZg9hgKTbMeiwohJcDJOTm+M/FiDdsTcxiyQswAd7t9IZU7l7q0hZDiuLke
+Ki/a8z7COhJNwK3iYG96aieKFh/Dt1751ddvKenCLOpw/vhsBw8kujP1om+xON7jmuY/JTAkEWKWCd6AMA2HYyyADDIlcAQek1DpDvPX3KQwDb4h7+qSg9Smq0
+BUJUH0hetM4hzDtTKbBma+YkKNYYp+ymcsn2cti+NtgoX1L4OfcTQIB3VSZ2eLHHY52f/iCxkHt+YD/tQs3XiYozRz1XXjgNeDL1+AO4bbWTRL5GPh6pwZ1zBS
+CjaMYaPa+ZKisBp+e39KlCaYn5irzevRPMnyjeKRIuahyb69gCt2QnjF/20PmQ+NvXUWQAGXzPX2MgMmMSxguJ9Cu75BL2z2TSJk44T9gBi3BzcHQMIpMd8fSz
+Oylo81xNcm8MJKkwe6tp4NY4p8xC7uh1RiwbLFGjZQSMDjcr3hILzMpqmFqp6bvKgrnQNTHHqr+XuBgs12Tg="
   app: platzi-store-backend-deveeup
   on:
     repo: deveeup/platzi-store-backend
