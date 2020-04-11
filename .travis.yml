@@ -1,0 +1,24 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+node_js: '12'
+git: 
+  depth: 3
+script: 
+  - yarn test
+notifications: 
+  slack: personal-fit:d1vkQpTBxLstExR4gcLqbTtn
+  email:
+    recipients:
+      - jossedaviid1@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
+  api_key: 5f12ee20-2130-4cca-8755-7e3b9fb9b069 # from heroku
+  app: platzi-store-backend-deveeup
+  on:
+    repo: deveeup/platzi-store-backend
